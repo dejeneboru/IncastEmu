@@ -1,0 +1,18 @@
+
+=========================================================================================
+| IO Statistics                                                                         |
+|                                                                                       |
+| Interval size: 209.3 secs (dur)                                                       |
+| Col 1: Frames and bytes                                                               |
+|     2: COUNT(tcp.analysis.retransmission) tcp.analysis.retransmission                 |
+|     3: COUNT(tcp.analysis.duplicate_ack)tcp.analysis.duplicate_ack                    |
+|     4: COUNT(tcp.analysis.lost_segment) tcp.analysis.lost_segment                     |
+|     5: COUNT(tcp.analysis.fast_retransmission) tcp.analysis.fast_retransmission       |
+|     6: COUNT(tcp.analysis.out_of_order) tcp.analysis.out_of_order                     |
+|     7: COUNT(tcp.analysis.window_update) tcp.analysis.window_update                   |
+|---------------------------------------------------------------------------------------|
+|                |1                     |2      |3      |4      |5      |6      |7      |
+| Interval       |  Frames |    Bytes   | COUNT | COUNT | COUNT | COUNT | COUNT | COUNT |
+|---------------------------------------------------------------------------------------|
+|   0.0 <> 209.3 | 1359043 | 1961844350 | 15810 | 94397 |  1310 |  8796 |  6412 |  2004 |
+=========================================================================================

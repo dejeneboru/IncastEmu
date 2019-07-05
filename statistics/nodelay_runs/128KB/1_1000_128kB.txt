@@ -1,0 +1,31 @@
+Reading file: conf/1servers.conf
+Number of destinations: 1
+1 - Dest: 10.10.4.1, 5001 - Src: -1
+Request size: 131072
+Iterations: 1000
+L2.5: 0
+Quick ACK: 4195329
+Connected to 10.10.4.1:5001
+
+Connection: 0
+Avg: 11.664 msec
+Min: 11.323 msec
+Max: 15.649 msec
+Goodput: 85.732 Mbps
+Overall
+Avg: 11.664 msec
+Min: 11.323 msec
+Max: 15.649 msec
+Total sent: 125.00 MB
+Total duration: 11.6640 sec
+Overall Goodput: 85.734 Mbps
+avg_usec + 3 * stddev = 12498.719943
+avg_usec + 2 * stddev = 12220.479962
+avg_usec + 1 * stddev = 11942.239981
+avg_usec = 11664.000000
+
+Histogram
+0 - 621
+1 - 335
+2 - 19
+3 - 25

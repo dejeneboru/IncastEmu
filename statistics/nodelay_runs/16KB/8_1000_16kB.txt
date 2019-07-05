@@ -1,0 +1,87 @@
+Reading file: conf/8servers.conf
+Number of destinations: 8
+0 - Dest: 10.10.4.1, 5001 - Src: -1
+1 - Dest: 10.10.5.1, 5001 - Src: -1
+2 - Dest: 10.10.1.1, 5001 - Src: -1
+3 - Dest: 10.10.6.1, 5001 - Src: -1
+4 - Dest: 10.10.2.1, 5001 - Src: -1
+5 - Dest: 10.10.8.1, 5001 - Src: -1
+6 - Dest: 10.10.9.1, 5001 - Src: -1
+7 - Dest: 10.10.10.2, 5001 - Src: -1
+Request size: 16384
+Iterations: 1000
+L2.5: 0
+Quick ACK: 1
+Connected to 10.10.4.1:5001
+Quick ACK: 1
+Connected to 10.10.5.1:5001
+Quick ACK: 1
+Connected to 10.10.1.1:5001
+Quick ACK: 1
+Connected to 10.10.6.1:5001
+Quick ACK: 1
+Connected to 10.10.2.1:5001
+Quick ACK: 1
+Connected to 10.10.8.1:5001
+Quick ACK: 1
+Connected to 10.10.9.1:5001
+Quick ACK: 1
+Connected to 10.10.10.2:5001
+
+Connection: 0
+Avg: 26.643 msec
+Min: 7.928 msec
+Max: 233.993 msec
+Goodput: 4.692 Mbps
+Connection: 1
+Avg: 28.795 msec
+Min: 8.076 msec
+Max: 233.053 msec
+Goodput: 4.341 Mbps
+Connection: 2
+Avg: 28.957 msec
+Min: 7.498 msec
+Max: 234.360 msec
+Goodput: 4.317 Mbps
+Connection: 3
+Avg: 26.385 msec
+Min: 8.058 msec
+Max: 233.559 msec
+Goodput: 4.737 Mbps
+Connection: 4
+Avg: 31.509 msec
+Min: 6.623 msec
+Max: 235.381 msec
+Goodput: 3.967 Mbps
+Connection: 5
+Avg: 32.859 msec
+Min: 6.644 msec
+Max: 233.876 msec
+Goodput: 3.804 Mbps
+Connection: 6
+Avg: 28.163 msec
+Min: 7.172 msec
+Max: 233.136 msec
+Goodput: 4.438 Mbps
+Connection: 7
+Avg: 35.344 msec
+Min: 6.918 msec
+Max: 232.868 msec
+Goodput: 3.537 Mbps
+Overall
+Avg: 106.171 msec
+Min: 11.134 msec
+Max: 235.599 msec
+Total sent: 125.00 MB
+Total duration: 106.1710 sec
+Overall Goodput: 9.419 Mbps
+avg_usec + 3 * stddev = 416847.649209
+avg_usec + 2 * stddev = 313288.766139
+avg_usec + 1 * stddev = 209729.883070
+avg_usec = 106171.000000
+
+Histogram
+0 - 546
+1 - 85
+2 - 369
+3 - 0

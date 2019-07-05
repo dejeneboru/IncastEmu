@@ -1,0 +1,103 @@
+Reading file: conf/10servers.conf
+Number of destinations: 10
+0 - Dest: 10.10.4.1, 5001 - Src: -1
+1 - Dest: 10.10.5.1, 5001 - Src: -1
+2 - Dest: 10.10.1.1, 5001 - Src: -1
+3 - Dest: 10.10.6.1, 5001 - Src: -1
+4 - Dest: 10.10.2.1, 5001 - Src: -1
+5 - Dest: 10.10.8.1, 5001 - Src: -1
+6 - Dest: 10.10.9.1, 5001 - Src: -1
+7 - Dest: 10.10.10.2, 5001 - Src: -1
+8 - Dest: 10.10.11.1, 5001 - Src: -1
+9 - Dest: 10.10.12.1, 5001 - Src: -1
+Request size: 131072
+Iterations: 1000
+L2.5: 0
+Quick ACK: 1
+Connected to 10.10.4.1:5001
+Quick ACK: 1
+Connected to 10.10.5.1:5001
+Quick ACK: 1
+Connected to 10.10.1.1:5001
+Quick ACK: 1
+Connected to 10.10.6.1:5001
+Quick ACK: 1
+Connected to 10.10.2.1:5001
+Quick ACK: 1
+Connected to 10.10.8.1:5001
+Quick ACK: 1
+Connected to 10.10.9.1:5001
+Quick ACK: 1
+Connected to 10.10.10.2:5001
+Quick ACK: 1
+Connected to 10.10.11.1:5001
+Quick ACK: 1
+Connected to 10.10.12.1:5001
+
+Connection: 0
+Avg: 109.321 msec
+Min: 63.128 msec
+Max: 291.727 msec
+Goodput: 9.147 Mbps
+Connection: 1
+Avg: 110.824 msec
+Min: 62.710 msec
+Max: 300.349 msec
+Goodput: 9.023 Mbps
+Connection: 2
+Avg: 113.594 msec
+Min: 63.430 msec
+Max: 290.953 msec
+Goodput: 8.803 Mbps
+Connection: 3
+Avg: 104.585 msec
+Min: 47.259 msec
+Max: 310.020 msec
+Goodput: 9.562 Mbps
+Connection: 4
+Avg: 111.952 msec
+Min: 66.441 msec
+Max: 295.623 msec
+Goodput: 8.932 Mbps
+Connection: 5
+Avg: 117.467 msec
+Min: 64.346 msec
+Max: 307.275 msec
+Goodput: 8.513 Mbps
+Connection: 6
+Avg: 103.770 msec
+Min: 59.911 msec
+Max: 301.658 msec
+Goodput: 9.637 Mbps
+Connection: 7
+Avg: 120.107 msec
+Min: 65.858 msec
+Max: 320.103 msec
+Goodput: 8.326 Mbps
+Connection: 8
+Avg: 114.425 msec
+Min: 63.187 msec
+Max: 309.238 msec
+Goodput: 8.739 Mbps
+Connection: 9
+Avg: 96.760 msec
+Min: 56.526 msec
+Max: 298.126 msec
+Goodput: 10.335 Mbps
+Overall
+Avg: 193.099 msec
+Min: 109.830 msec
+Max: 320.212 msec
+Total sent: 1250.00 MB
+Total duration: 193.0990 sec
+Overall Goodput: 51.787 Mbps
+avg_usec + 3 * stddev = 396910.766675
+avg_usec + 2 * stddev = 328973.511116
+avg_usec + 1 * stddev = 261036.255558
+avg_usec = 193099.000000
+
+Histogram
+0 - 392
+1 - 463
+2 - 145
+3 - 0

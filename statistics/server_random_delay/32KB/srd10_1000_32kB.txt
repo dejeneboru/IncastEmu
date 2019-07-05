@@ -1,0 +1,102 @@
+Reading file: conf/10servers.conf
+Number of destinations: 10
+0 - Dest: 10.10.4.1, 5001 - Src: -1
+1 - Dest: 10.10.5.1, 5001 - Src: -1
+2 - Dest: 10.10.1.1, 5001 - Src: -1
+3 - Dest: 10.10.6.1, 5001 - Src: -1
+4 - Dest: 10.10.2.1, 5001 - Src: -1
+5 - Dest: 10.10.8.1, 5001 - Src: -1
+6 - Dest: 10.10.9.1, 5001 - Src: -1
+7 - Dest: 10.10.10.2, 5001 - Src: -1
+8 - Dest: 10.10.11.1, 5001 - Src: -1
+9 - Dest: 10.10.12.1, 5001 - Src: -1
+Request size: 32768
+Iterations: 1000
+Quick ACK: 1
+Connected to 10.10.4.1:5001
+Quick ACK: 1
+Connected to 10.10.5.1:5001
+Quick ACK: 1
+Connected to 10.10.1.1:5001
+Quick ACK: 1
+Connected to 10.10.6.1:5001
+Quick ACK: 1
+Connected to 10.10.2.1:5001
+Quick ACK: 1
+Connected to 10.10.8.1:5001
+Quick ACK: 1
+Connected to 10.10.9.1:5001
+Quick ACK: 1
+Connected to 10.10.10.2:5001
+Quick ACK: 1
+Connected to 10.10.11.1:5001
+Quick ACK: 1
+Connected to 10.10.12.1:5001
+
+Connection: 0
+Avg: 8.850 msec
+Min: 5.931 msec
+Max: 13.243 msec
+Goodput: 28.248 Mbps
+Connection: 1
+Avg: 8.809 msec
+Min: 5.603 msec
+Max: 12.555 msec
+Goodput: 28.379 Mbps
+Connection: 2
+Avg: 8.777 msec
+Min: 6.960 msec
+Max: 11.973 msec
+Goodput: 28.482 Mbps
+Connection: 3
+Avg: 26.092 msec
+Min: 17.426 msec
+Max: 227.735 msec
+Goodput: 9.581 Mbps
+Connection: 4
+Avg: 26.551 msec
+Min: 17.399 msec
+Max: 228.286 msec
+Goodput: 9.416 Mbps
+Connection: 5
+Avg: 27.193 msec
+Min: 16.830 msec
+Max: 249.019 msec
+Goodput: 9.193 Mbps
+Connection: 6
+Avg: 26.632 msec
+Min: 16.797 msec
+Max: 234.105 msec
+Goodput: 9.387 Mbps
+Connection: 7
+Avg: 26.412 msec
+Min: 16.925 msec
+Max: 232.924 msec
+Goodput: 9.465 Mbps
+Connection: 8
+Avg: 26.312 msec
+Min: 17.094 msec
+Max: 231.249 msec
+Goodput: 9.501 Mbps
+Connection: 9
+Avg: 25.877 msec
+Min: 17.451 msec
+Max: 31.489 msec
+Goodput: 9.661 Mbps
+Overall
+Avg: 32.962 msec
+Min: 27.741 msec
+Max: 249.019 msec
+Total sent: 312.50 MB
+Total duration: 32.9620 sec
+Overall Goodput: 75.845 Mbps
+avg_usec + 3 * stddev = 122551.164204
+avg_usec + 2 * stddev = 92688.109469
+avg_usec + 1 * stddev = 62825.054735
+avg_usec = 32962.000000
+
+Histogram
+0 - 976
+1 - 1
+2 - 0
+3 - 23
